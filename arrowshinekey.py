@@ -8,7 +8,7 @@ bright = unicornhat.brightness
 shine = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 i = iter
 
-#qucik funation for show and slee in other functions
+#quick function for show and slee in other functions
 def show():
     unicornhat.show()
     sleep(0.1)
@@ -38,17 +38,7 @@ def fs():
     arrowfade()
     sleep(1)
 
-# Commented out code to test the different functions
-##arrowshine()
-##sleep(1)
-##shine.reverse()
-##arrowfade()
-##unicornhat.clear()
-##unicornhat.show()
-
-
-
-#Main loop once input takens
+#Main loop once input given
 while True:
     unicornhat.clear()
     unicornhat.show()
